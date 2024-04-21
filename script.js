@@ -1,5 +1,5 @@
 javescript
 
 document.addEventListener('DOMContentLoaded', function() {
-    alert('Welcome to AGIFNA 2024!');
+    alert('Welcome to AGIFNA AAA2024!');
 });
