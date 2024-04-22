@@ -50,7 +50,7 @@ body, html {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 2;
+    z-index: 30;
   }
   
   .social-icon, .contact-button {
@@ -62,28 +62,49 @@ body, html {
     color: white;
     font-size: 0.9em;
   }
+
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Behind everything else */
+    opacity: 0.5; /* Adjust for desired level of fade */
+    overflow: hidden;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire area */
+}
+
   
   .title-container {
-    margin: 0;
+    margin-top: -20px; /* Reduce the top margin to shift the container up */
     position: relative;
     z-index: 2;
+    margin-bottom: 100px;
   }
   
   .title-container .title-image {
     margin-top: 100px;
+    margin-bottom: 40px;
     width: 60%;
     max-width: 800px; /* Control max size */
     height: auto;
   }
   
   .title-container p {
-    font-size: 1.2em;
-    margin-top: 10px;
+    font-size: 2vw; /* Adjust as necessary */
+    margin-top: -100px; /* Reduce the top margin to shift paragraphs closer together */
   }
   
+  
   .event-details {
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    bottom:40px; /* Increase the bottom position value to move it up */
     width: 100%;
     z-index: 2;
     display: flex;
@@ -126,6 +147,10 @@ body, html {
     .header-container {
       padding-top: 100px; /* Increase the top padding to accommodate the badge */
     }
+    .title-container p {
+        font-size: 2vw; /* Adjust as necessary */
+        margin-top: -100px; /* Reduce the top margin to shift paragraphs closer together */
+      }
   
     .register-button, .venue-button {
       padding: 8px 15px; /* Adjust padding */
@@ -145,6 +170,7 @@ body, html {
       font-size: 0.8em; /* Adjust font size for social icons and contact buttons */
       padding: 8px 12px; /* Adjust padding */
     }
+
   }
   
   @media (max-width: 480px) {
