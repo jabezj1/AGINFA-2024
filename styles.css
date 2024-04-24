@@ -1,9 +1,20 @@
+@font-face {
+  font-family: Angele; /* Choose a name for your font */
+  src: url('font/Angele.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Angele_1; /* Choose a name for your font */
+  src: url('font/Angele_3.ttf') format('truetype');
+}
+
 body, html {
+    font-family: Angele, Arial, sans-serif;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   #background-video {
@@ -14,6 +25,24 @@ body, html {
     height: 100%;
     z-index: -1;
     object-fit: cover;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: salmon;
+  
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-instagram {
+    color: white;
   }
   
   .header-container {
@@ -48,7 +77,7 @@ body, html {
   
   .top-right-menu {
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 20px;
     z-index: 30;
   }
@@ -125,6 +154,8 @@ body, html {
   .register-button:hover, .venue-button:hover {
     background-color: #9b6a76;
   }
+
+  
   
   span {
     font-size: 1.5em;
@@ -161,10 +192,7 @@ body, html {
       font-size: 1.2em; /* Adjust font size for details */
     }
   
-    .top-right-menu {
-      top: 10px; /* Adjust top margin for menu items */
-      right: 10px;
-    }
+   
   
     .social-icon, .contact-button {
       font-size: 0.8em; /* Adjust font size for social icons and contact buttons */
@@ -195,4 +223,76 @@ body, html {
       font-size: 1em; /* Reduce font size for event details on small screens */
     }
   }
+
+  /* Info Header */
+.info-header {
+  background-color: black; /* Adjust color as needed */
+  color: white;
+  padding: 20px;
+  font-size: 2em; /* Adjust font size as needed */
+  text-align: center;
+}
+
+/* Honor's Haven Retreat & Conference Styles */
+.honors-haven-section {
+  color: #fff;
+  background-color: #000; /* Adjust the background color as needed */
+  padding-bottom: 20px;
+}
+
+.honors-haven-header {
+  background-color: #373B44; /* Adjust to the color of the header */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5em;
+}
+
+.honors-haven-header .address {
+  font-size: 0.8em; /* Adjust as needed */
+}
+
+.honors-haven-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.honors-haven-content .video-container {
+  flex-basis: 60%; /* Adjust the width as needed */
+  background-color: #F0E68C; /* The light background color for video placeholder */
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.honors-haven-content .video-container video {
+  width: 100%;
+}
+
+.honors-haven-content .register {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  background-color: #8265A7; /* Adjust the color */
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  cursor: pointer; /* If it's a clickable button */
+  border-radius: 25px; /* Matching the rounded edge style */
+}
+
+.honors-haven-details {
+  background-color: #8265A7; /* Adjust the color */
+  color: white;
+  margin-top: 20px;
+  width: 60%;
+  padding: 20px;
+  font-size: 16px;
+  flex-basis: 60%; /* Adjust the width as needed */
+  border-radius: 25px; /* Matching the rounded edge style */
+  display: flex;
+  text-align:center
+  
+
+}
   

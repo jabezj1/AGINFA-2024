@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Angele';
+    src: url('Angele.eot');
+    src: local('Angele Italic'), local('Angele'),
+        url('Angele.eot?#iefix') format('embedded-opentype'),
+        url('Angele.woff2') format('woff2'),
+        url('Angele.woff') format('woff'),
+        url('Angele.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angele';
+    src: url('Angele_1.eot');
+    src: local('Angele Regular'), local('Angele'),
+        url('Angele_1.eot?#iefix') format('embedded-opentype'),
+        url('Angele_1.woff2') format('woff2'),
+        url('Angele_1.woff') format('woff'),
+        url('Angele_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angele';
+    src: url('Angele_2.eot');
+    src: local('Angele Bold Italic'), local('Angele'),
+        url('Angele_2.eot?#iefix') format('embedded-opentype'),
+        url('Angele_2.woff2') format('woff2'),
+        url('Angele_2.woff') format('woff'),
+        url('Angele_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angele';
+    src: url('Angele_3.eot');
+    src: local('Angele Bold'), local('Angele'),
+        url('Angele_3.eot?#iefix') format('embedded-opentype'),
+        url('Angele_3.woff2') format('woff2'),
+        url('Angele_3.woff') format('woff'),
+        url('Angele_3.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
